@@ -35,3 +35,6 @@ function htmls() {
   })();
 
 }
+document.addEventListener("DOMContentLoaded", function() {
+    myPlugin();
+});
