@@ -1,4 +1,4 @@
-function htmls() {
+
   window.onhashchange=function(){jp();};
   function hh() {history.pushState(history.length+1, "message", "#"+new Date().getTime());}
   function jp() {
@@ -33,8 +33,3 @@ function htmls() {
       var s = document.getElementsByTagName("script")[0];
       s.parentNode.insertBefore(hm, s);
   })();
-
-}
-document.addEventListener("DOMContentLoaded", function() {
-    myPlugin();
-});
